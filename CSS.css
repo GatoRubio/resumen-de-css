@@ -1,0 +1,18 @@
+===>>>  CSS3  || <<<===
+/*
+p[name="miselementos"]{
+color: #f00;
+}
+selectores de name{
+^ ==>> empiese en los name;
+$ ==>> termine en los name;
+* ==>> se encuentre en name;
+}
+especificaciones [
+p:nth-child(2) { css ;}       |||  css >> p >> 2° hijo >> etiqueta;
+p:nth-child(odd) { css ;}     |||  css >> p >> impares >> etiqueta;
+p:nth-child(even) { css ;}    |||  css >> p >> pares >> etiqueta;
+p:first-child { css ;}        |||  css >> p >> primeros hijos >> etiqueta;
+p:last-child { css ;}         |||  css >> p >> ultimos hijos >> etiqueta;
+p:only-child { css ;}         |||  css >> p >> hijos unicos >> etiqueta;
+]*/
