@@ -1,13 +1,33 @@
+﻿===>>>  IMPORTANTE  <<<===
+/*
+para agregar CSS a un archivo de texto HTML 5 hay que ulilizar la etiqueta
+link de esta manera,en el atributo "href" hay que poner la direccion del archivo
+<link rel="stylesheet" href="aquiponerladireccion.css"/>
+*/
+
+﻿===>>>  SELECTORES  <<<===
+/*
+tipos de selectores :
+-ID                           >>>      #ID
+-CLASE                        >>>      .CLASE
+-ETIQUETA                     >>>      NOMBRE ETIQUETA
+*/
 ﻿===>>>  CSS  |  <<<===
+/*
+
+
+*/
+﻿===>>>  CSS  |  <<<===
+/*
 background-color: #00f;    >>>  color de fondo
 
 
 
 
 
-
+*/
 ===>>>  CSS3  ||  <<<===
-*
+/*
 p[name="miselementos"]{
 color: #f00;
 }
