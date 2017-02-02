@@ -13,20 +13,30 @@ tipos de selectores :
 -ETIQUETA                     >>>      NOMBRE ETIQUETA
 */
 ﻿===>>>  CSS  |  <<<===
-/*
+  /*
+  {
+  background-color: #00f;    >>>  color de fondo (en este caso el valor esta en hexadecimal);
+  display: inline;           >>>  el elemento seleccionado solo ocupara el espacio correspondientey no mas
+                                  en otras palabras deja de ser un elemento "block";
+  display: block             >>>  combierte el elemento a "bloque" ocupando el 100% de ancho;
+  float: left                >>>  lo cmbierte en un elemento flotante (en este caso izquierda);
+  height: 10px               >>>  le da una altura en especifico al elemento seleccionado (en este caso 10px);
+  margin: ▲px ►px ▼px ◄px    >>>  establece distancia desde el elemento hacia "los lados",
+                                  con 3 valores es : ▲px ►◄px ▼px ;
+                                  con 2 valores es : ▲▼px ►◄px ;
+                                  con 1 valor es: ►◄▼▲px;
+  margin-left: 0px           >>>  lo mismo pero en este caso es para la ◄;
+  margin-right: 0px          >>>  lo mismo pero en este caso es para la ►;
+  margin-top: 0px            >>>  lo mismo pero en este caso es para la ▲;
+  margin-bottom: 0px         >>>  lo mismo pero en este caso es para la ▼;
 
 
-*/
-﻿===>>>  CSS  |  <<<===
-/*
-background-color: #00f;    >>>  color de fondo
+
+  }
+  */
 
 
-
-
-
-*/
-===>>>  CSS3  ||  <<<===
+===>>>  CSS3  |  <<<===
 /*
 p[name="miselementos"]{
 color: #f00;
@@ -44,3 +54,4 @@ p:first-child { css ;}        |||  css >> p >> primeros hijos >> etiqueta;
 p:last-child { css ;}         |||  css >> p >> ultimos hijos >> etiqueta;
 p:only-child { css ;}         |||  css >> p >> hijos unicos >> etiqueta;
 ]*/
+===>>>  CSS3  ||  <<<===
