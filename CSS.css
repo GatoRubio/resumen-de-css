@@ -1,44 +1,47 @@
 ﻿===>>>  IMPORTANTE  <<<===
-/*
-para agregar CSS a un archivo de texto HTML 5 hay que ulilizar la etiqueta
-link de esta manera:
-<link rel="stylesheet" href="aquiponerladireccion.css"/>
-en el atributo "href" hay que poner la direccion del archivo
-*/
+ /*
+- para agregar CSS a un archivo de texto HTML 5 hay que ulilizar la etiqueta
+  link de esta manera:
+  <link rel="stylesheet" href="aquiponerladireccion.css"/>
+  en el atributo "href" hay que poner la direccion del archivo
+- para agregar css a una etiqueta html de forma inline se hace de la siguiente manera:
+  <p style="css"></p>
+ */
 
 ﻿===>>>  SELECTORES  <<<===
-*
-tipos de selectores :
--ID                           >>>      #ID
--CLASE                        >>>      .CLASE
--ETIQUETA                     >>>      NOMBRE ETIQUETA
-*/
+ /*
+ tipos de selectores :
+ -ID                         >>>      #ID
+ -CLASE                      >>>      .CLASE
+ -ETIQUETA                   >>>      NOMBRE ETIQUETA
+ */
 ﻿===>>>  CSS  |  <<<===
-  *
-  {
-  background-color: #00f;    >>>  color de fondo (en este caso el valor esta en hexadecimal);
-  display: inline;           >>>  el elemento seleccionado solo ocupara el espacio correspondientey no mas
+ /*
+ {
+ background-color: #00f;    >>>  color de fondo (en este caso el valor esta en hexadecimal);
+ display: inline;           >>>  el elemento seleccionado solo ocupara el espacio correspondientey no mas
                                   en otras palabras deja de ser un elemento "block";
-  display: block             >>>  combierte el elemento a "bloque" ocupando el 100% de ancho;
-  float: left                >>>  lo cmbierte en un elemento flotante (en este caso izquierda);
-  height: 10px               >>>  le da una altura en especifico al elemento seleccionado (en este caso 10px);
-  margin: ▲px ►px ▼px ◄px    >>>  establece distancia desde el elemento hacia "los lados",
+ display: block             >>>  combierte el elemento a "bloque" ocupando el 100% de ancho;
+ float: left                >>>  lo cmbierte en un elemento flotante (en este caso izquierda);
+ height: 10px               >>>  le da una altura en especifico al elemento seleccionado (en este caso 10px);
+ width: 10px                >>>  le da un anco en especifico al elemento seleccionado (en este caso 10px)
+ margin: ▲px ►px ▼px ◄px    >>>  establece distancia desde el elemento hacia "los lados",
                                   con 3 valores es : ▲px ►◄px ▼px ;
                                   con 2 valores es : ▲▼px ►◄px ;
                                   con 1 valor es: ►◄▼▲px;
-  margin-left: 0px           >>>  lo mismo pero en este caso es para la ◄;
-  margin-right: 0px          >>>  lo mismo pero en este caso es para la ►;
-  margin-top: 0px            >>>  lo mismo pero en este caso es para la ▲;
-  margin-bottom: 0px         >>>  lo mismo pero en este caso es para la ▼;
+  margin-left: 0px          >>>  lo mismo pero en este caso es para la ◄;
+  margin-right: 0px         >>>  lo mismo pero en este caso es para la ►;
+  margin-top: 0px           >>>  lo mismo pero en este caso es para la ▲;
+  margin-bottom: 0px        >>>  lo mismo pero en este caso es para la ▼;
 
 
 
-  }
-  */
+ }
+ */
 
 
 ===>>>  CSS3  |  <<<===
-*
+/*
 p[name="miselementos"]{
 color: #f00;
 }
